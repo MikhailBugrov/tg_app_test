@@ -21,7 +21,7 @@ import legacy from "@vitejs/plugin-legacy";
 // }
 
 export default defineConfig({
-  // base: "tg_app_test",
+  base: "tg_app_test",
 
   plugins: [
     react(),

@@ -21,6 +21,7 @@ export const App = () => {
         <Link to="/about">About</Link>
 
         <Link to="/character">Character</Link>
+        <div></div>
       </nav>
       <Routes>
         <Route path="/" element={<HomeTest />} />
